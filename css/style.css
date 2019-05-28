@@ -156,7 +156,6 @@ body {
 }
 
 .navbar-top {
-    background: #4D5061;
     border-bottom: 4px solid #60B078;
     color: #FFF;
     height: auto;
@@ -289,3 +288,59 @@ body {
 .recent-post a {text-decoration: none;color:#34495E;transition: 0.5s;}
 .post-img, .recent-post a:hover{color:#60B078;}
 .post-img img:hover{border: 5px solid #60B078;}
+
+.sosyal-medya-header {
+    list-style-type: none;
+    display: block;
+}
+
+.sosyal-medya-header li {
+    display: inline-block;
+    padding-top: .3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+    position: relative;
+}
+
+.sosyal-medya-header li a {
+    color: black;
+    transition: .5s;
+}
+
+.sosyal-medya-header li a:hover {
+    transition: .5s;
+    text-decoration: none;
+    color: #60B078;
+}
+
+.mb-n-5 {
+    margin-bottom: -5px;  
+}
+
+.header-logo {
+    transition: .5s;
+    color: black;
+}
+
+.header-logo:hover{
+    text-decoration: none;
+    transition: .5s;
+    color: #60B078;
+}
+
+@media (max-width:767px) {
+    .mtm-3{
+        margin-top: 1rem;
+    }
+    .mlmr-m {
+        margin-left: 12px;
+        margin-right: -12px;
+    }
+}
+@media (min-width:767px) {
+    .mrml-m {
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+}
